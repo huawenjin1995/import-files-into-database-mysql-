@@ -1,0 +1,94 @@
+2019-12-28 14:06:43 [MainThread] [root] [INFO] get_waiting_insert_files.py[line:25] 成功连接数据库
+2019-12-28 14:06:44 [MainThread] [root] [INFO] get_waiting_insert_files.py[line:47] create table successed
+2019-12-28 14:06:44 [MainThread] [root] [INFO] get_waiting_insert_files.py[line:63] total waiting insert files: 10000
+2019-12-28 14:07:20 [MainThread] [root] [INFO] deal_with_data.py[line:138] Process[0] 成功连接数据库
+2019-12-28 14:07:20 [MainThread] [root] [INFO] deal_with_data.py[line:177] Process[0] waiting_insert_files: 1037
+2019-12-28 14:07:23 [MainThread] [root] [INFO] deal_with_data.py[line:138] Process[1] 成功连接数据库
+2019-12-28 14:07:23 [MainThread] [root] [INFO] deal_with_data.py[line:177] Process[1] waiting_insert_files: 1038
+2019-12-28 14:07:26 [MainThread] [root] [INFO] deal_with_data.py[line:138] Process[2] 成功连接数据库
+2019-12-28 14:07:26 [MainThread] [root] [INFO] deal_with_data.py[line:177] Process[2] waiting_insert_files: 1049
+2019-12-28 14:07:42 [MainThread] [root] [INFO] deal_with_data.py[line:138] Process[3] 成功连接数据库
+2019-12-28 14:07:42 [MainThread] [root] [INFO] deal_with_data.py[line:177] Process[3] waiting_insert_files: 974
+2019-12-28 14:07:55 [MainThread] [root] [INFO] deal_with_data.py[line:138] Process[4] 成功连接数据库
+2019-12-28 14:07:55 [MainThread] [root] [INFO] deal_with_data.py[line:177] Process[4] waiting_insert_files: 961
+2019-12-28 14:08:11 [MainThread] [root] [INFO] deal_with_data.py[line:138] Process[5] 成功连接数据库
+2019-12-28 14:08:11 [MainThread] [root] [INFO] deal_with_data.py[line:177] Process[5] waiting_insert_files: 953
+2019-12-28 14:08:18 [MainThread] [root] [INFO] deal_with_data.py[line:199] Process[1] Finished	 waiting_insert_files: 1038	insert 1038 files successed
+2019-12-28 14:08:28 [MainThread] [root] [INFO] deal_with_data.py[line:199] Process[0] Finished	 waiting_insert_files: 1037	insert 1037 files successed
+2019-12-28 14:08:29 [MainThread] [root] [INFO] deal_with_data.py[line:138] Process[6] 成功连接数据库
+2019-12-28 14:08:29 [MainThread] [root] [INFO] deal_with_data.py[line:177] Process[6] waiting_insert_files: 1001
+2019-12-28 14:08:40 [MainThread] [root] [INFO] deal_with_data.py[line:138] Process[7] 成功连接数据库
+2019-12-28 14:08:40 [MainThread] [root] [INFO] deal_with_data.py[line:177] Process[7] waiting_insert_files: 969
+2019-12-28 14:08:54 [MainThread] [root] [INFO] deal_with_data.py[line:138] Process[8] 成功连接数据库
+2019-12-28 14:08:54 [MainThread] [root] [INFO] deal_with_data.py[line:177] Process[8] waiting_insert_files: 1007
+2019-12-28 14:09:06 [MainThread] [root] [INFO] deal_with_data.py[line:138] Process[9] 成功连接数据库
+2019-12-28 14:09:06 [MainThread] [root] [INFO] deal_with_data.py[line:177] Process[9] waiting_insert_files: 1011
+2019-12-28 14:10:04 [MainThread] [root] [INFO] deal_with_data.py[line:199] Process[2] Finished	 waiting_insert_files: 1049	insert 1049 files successed
+2019-12-28 14:11:45 [MainThread] [root] [INFO] deal_with_data.py[line:199] Process[3] Finished	 waiting_insert_files: 974	insert 974 files successed
+2019-12-28 14:12:18 [MainThread] [root] [INFO] deal_with_data.py[line:199] Process[4] Finished	 waiting_insert_files: 961	insert 961 files successed
+2019-12-28 14:12:41 [MainThread] [root] [INFO] deal_with_data.py[line:199] Process[5] Finished	 waiting_insert_files: 953	insert 953 files successed
+2019-12-28 14:12:52 [MainThread] [root] [INFO] deal_with_data.py[line:199] Process[7] Finished	 waiting_insert_files: 969	insert 969 files successed
+2019-12-28 14:12:59 [MainThread] [root] [INFO] deal_with_data.py[line:199] Process[6] Finished	 waiting_insert_files: 1001	insert 1001 files successed
+2019-12-28 14:12:59 [MainThread] [root] [INFO] deal_with_data.py[line:199] Process[8] Finished	 waiting_insert_files: 1007	insert 1007 files successed
+2019-12-28 14:13:06 [MainThread] [root] [INFO] deal_with_data.py[line:199] Process[9] Finished	 waiting_insert_files: 1011	insert 1011 files successed
+2019-12-28 14:25:13 [MainThread] [root] [INFO] get_waiting_insert_files.py[line:25] 成功连接数据库
+2019-12-28 14:25:14 [MainThread] [root] [ERROR] get_waiting_insert_files.py[line:49] 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '                                        INDEX(file_name))ENGINE = InnoDB DEFAULT' at line 1
+2019-12-28 14:26:46 [MainThread] [root] [INFO] get_waiting_insert_files.py[line:25] 成功连接数据库
+2019-12-28 14:26:46 [MainThread] [root] [ERROR] get_waiting_insert_files.py[line:49] 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(file_name))ENGINE = InnoDB DEFAULT CHARSET=UTF8' at line 1
+2019-12-28 14:30:22 [MainThread] [root] [INFO] get_waiting_insert_files.py[line:25] 成功连接数据库
+2019-12-28 14:30:22 [MainThread] [root] [ERROR] get_waiting_insert_files.py[line:49] 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '                                        INDEX(file_name) )ENGINE = InnoDB DEFAUL' at line 1
+2019-12-28 14:31:25 [MainThread] [root] [INFO] get_waiting_insert_files.py[line:25] 成功连接数据库
+2019-12-28 14:31:25 [MainThread] [root] [ERROR] get_waiting_insert_files.py[line:49] 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INDEX(file_name)                                        )ENGINE = InnoDB DEFAULT' at line 1
+2019-12-28 14:33:52 [MainThread] [root] [INFO] get_waiting_insert_files.py[line:25] 成功连接数据库
+2019-12-28 14:33:52 [MainThread] [root] [ERROR] get_waiting_insert_files.py[line:50] 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')ENGINE = InnoDB DEFAULT CHARSET=UTF8' at line 1
+2019-12-28 14:34:41 [MainThread] [root] [INFO] get_waiting_insert_files.py[line:25] 成功连接数据库
+2019-12-28 14:34:41 [MainThread] [root] [ERROR] get_waiting_insert_files.py[line:50] 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')ENGINE = InnoDB DEFAULT CHARSET=UTF8' at line 1
+2019-12-28 14:37:23 [MainThread] [root] [INFO] get_waiting_insert_files.py[line:25] 成功连接数据库
+2019-12-28 14:37:23 [MainThread] [root] [ERROR] get_waiting_insert_files.py[line:49] 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '                                        ENGINE = InnoDB DEFAULT CHARSET=UTF8' at line 1
+2019-12-28 14:37:39 [MainThread] [root] [INFO] get_waiting_insert_files.py[line:25] 成功连接数据库
+2019-12-28 14:37:40 [MainThread] [root] [INFO] get_waiting_insert_files.py[line:47] create table successed
+2019-12-28 14:37:40 [MainThread] [root] [INFO] get_waiting_insert_files.py[line:63] total waiting insert files: 10000
+2019-12-28 14:39:17 [MainThread] [root] [INFO] get_waiting_insert_files.py[line:25] 成功连接数据库
+2019-12-28 14:39:17 [MainThread] [root] [ERROR] get_waiting_insert_files.py[line:50] 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(file_name)                                                            ENGINE = ' at line 1
+2019-12-28 14:39:36 [MainThread] [root] [INFO] get_waiting_insert_files.py[line:25] 成功连接数据库
+2019-12-28 14:39:36 [MainThread] [root] [ERROR] get_waiting_insert_files.py[line:50] 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '                                        index(file_name)                        ' at line 1
+2019-12-28 14:39:45 [MainThread] [root] [INFO] get_waiting_insert_files.py[line:25] 成功连接数据库
+2019-12-28 14:39:45 [MainThread] [root] [ERROR] get_waiting_insert_files.py[line:50] 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '                                        index(file_name),                       ' at line 1
+2019-12-28 14:40:15 [MainThread] [root] [INFO] get_waiting_insert_files.py[line:25] 成功连接数据库
+2019-12-28 14:40:15 [MainThread] [root] [ERROR] get_waiting_insert_files.py[line:50] 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '                                        index (file_name),                      ' at line 1
+2019-12-28 14:40:22 [MainThread] [root] [INFO] get_waiting_insert_files.py[line:25] 成功连接数据库
+2019-12-28 14:40:22 [MainThread] [root] [ERROR] get_waiting_insert_files.py[line:50] 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '                                        index (file_name)                       ' at line 1
+2019-12-28 14:41:26 [MainThread] [root] [INFO] get_waiting_insert_files.py[line:25] 成功连接数据库
+2019-12-28 14:41:27 [MainThread] [root] [ERROR] get_waiting_insert_files.py[line:50] 1072 (42000): Key column 'filename' doesn't exist in table
+2019-12-28 14:41:27 [MainThread] [root] [INFO] get_waiting_insert_files.py[line:64] total waiting insert files: 10000
+2019-12-28 14:42:00 [MainThread] [root] [INFO] deal_with_data.py[line:138] Process[0] 成功连接数据库
+2019-12-28 14:42:00 [MainThread] [root] [INFO] deal_with_data.py[line:177] Process[0] waiting_insert_files: 1037
+2019-12-28 14:42:02 [MainThread] [root] [INFO] deal_with_data.py[line:138] Process[1] 成功连接数据库
+2019-12-28 14:42:02 [MainThread] [root] [INFO] deal_with_data.py[line:177] Process[1] waiting_insert_files: 1038
+2019-12-28 14:42:05 [MainThread] [root] [INFO] deal_with_data.py[line:138] Process[2] 成功连接数据库
+2019-12-28 14:42:05 [MainThread] [root] [INFO] deal_with_data.py[line:177] Process[2] waiting_insert_files: 1049
+2019-12-28 14:42:07 [MainThread] [root] [INFO] deal_with_data.py[line:138] Process[3] 成功连接数据库
+2019-12-28 14:42:07 [MainThread] [root] [INFO] deal_with_data.py[line:177] Process[3] waiting_insert_files: 974
+2019-12-28 14:42:09 [MainThread] [root] [INFO] deal_with_data.py[line:138] Process[4] 成功连接数据库
+2019-12-28 14:42:09 [MainThread] [root] [INFO] deal_with_data.py[line:177] Process[4] waiting_insert_files: 961
+2019-12-28 14:42:11 [MainThread] [root] [INFO] deal_with_data.py[line:138] Process[5] 成功连接数据库
+2019-12-28 14:42:11 [MainThread] [root] [INFO] deal_with_data.py[line:177] Process[5] waiting_insert_files: 953
+2019-12-28 14:42:13 [MainThread] [root] [INFO] deal_with_data.py[line:138] Process[6] 成功连接数据库
+2019-12-28 14:42:13 [MainThread] [root] [INFO] deal_with_data.py[line:177] Process[6] waiting_insert_files: 1001
+2019-12-28 14:42:15 [MainThread] [root] [INFO] deal_with_data.py[line:138] Process[7] 成功连接数据库
+2019-12-28 14:42:15 [MainThread] [root] [INFO] deal_with_data.py[line:177] Process[7] waiting_insert_files: 969
+2019-12-28 14:42:17 [MainThread] [root] [INFO] deal_with_data.py[line:138] Process[8] 成功连接数据库
+2019-12-28 14:42:17 [MainThread] [root] [INFO] deal_with_data.py[line:177] Process[8] waiting_insert_files: 1007
+2019-12-28 14:42:21 [MainThread] [root] [INFO] deal_with_data.py[line:138] Process[9] 成功连接数据库
+2019-12-28 14:42:21 [MainThread] [root] [INFO] deal_with_data.py[line:177] Process[9] waiting_insert_files: 1011
+2019-12-28 14:44:00 [MainThread] [root] [INFO] deal_with_data.py[line:199] Process[1] Finished	 waiting_insert_files: 1038	insert 1038 files successed
+2019-12-28 14:44:10 [MainThread] [root] [INFO] deal_with_data.py[line:199] Process[0] Finished	 waiting_insert_files: 1037	insert 1037 files successed
+2019-12-28 14:47:13 [MainThread] [root] [INFO] deal_with_data.py[line:199] Process[5] Finished	 waiting_insert_files: 953	insert 953 files successed
+2019-12-28 14:47:18 [MainThread] [root] [INFO] deal_with_data.py[line:199] Process[4] Finished	 waiting_insert_files: 961	insert 961 files successed
+2019-12-28 14:47:42 [MainThread] [root] [INFO] deal_with_data.py[line:199] Process[3] Finished	 waiting_insert_files: 974	insert 974 files successed
+2019-12-28 14:47:44 [MainThread] [root] [INFO] deal_with_data.py[line:199] Process[8] Finished	 waiting_insert_files: 1007	insert 1007 files successed
+2019-12-28 14:47:45 [MainThread] [root] [INFO] deal_with_data.py[line:199] Process[7] Finished	 waiting_insert_files: 969	insert 969 files successed
+2019-12-28 14:47:47 [MainThread] [root] [INFO] deal_with_data.py[line:199] Process[6] Finished	 waiting_insert_files: 1001	insert 1001 files successed
+2019-12-28 14:47:47 [MainThread] [root] [INFO] deal_with_data.py[line:199] Process[9] Finished	 waiting_insert_files: 1011	insert 1011 files successed
+2019-12-28 14:47:48 [MainThread] [root] [INFO] deal_with_data.py[line:199] Process[2] Finished	 waiting_insert_files: 1049	insert 1049 files successed
+2019-12-28 19:19:52 [MainThread] [root] [ERROR] get_waiting_insert_files.py[line:19] args not match
